@@ -1,0 +1,22 @@
+{
+	"name": "fmentor-four-card-plain",
+	"version": "1.0.0",
+	"description": "four card feature section using plain mode",
+	"main": "index.js",
+	"scripts": {
+		"lint": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/al3xback/fmentor-four-card-plain.git"
+	},
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/al3xback/fmentor-four-card-plain/issues"
+	},
+	"homepage": "https://github.com/al3xback/fmentor-four-card-plain#readme",
+	"devDependencies": {
+		"prettier": "^2.8.8"
+	}
+}
