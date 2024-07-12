@@ -32,10 +32,6 @@ h3 {
 	font-size: 2rem;
 }
 
-strong {
-	font-weight: 600;
-}
-
 body {
 	position: relative;
 	display: flex;
@@ -88,7 +84,7 @@ body {
 }
 
 .container {
-	padding: 0 2.4rem;
+	padding: 0 3.2rem;
 }
 
 /******************/
@@ -151,15 +147,16 @@ main > .container {
 	text-align: center;
 }
 
-.cards-summary__title {
+.cards-summary__subtitle {
+	margin-bottom: 0.6rem;
+	font-size: 2.4rem;
 	font-weight: 200;
+	color: #4c4e61;
+	line-height: 1;
 }
 
-.cards-summary__subtitle {
+.cards-summary__title {
 	margin-bottom: 1.6rem;
-	font-size: 2.4rem;
-	color: #4c4e61;
-	line-height: 1.25;
 }
 
 .cards,
@@ -230,7 +227,11 @@ main > .container {
 	}
 
 	.cards-summary__subtitle {
-		margin-bottom: 1.6rem;
+		margin-bottom: 1rem;
+	}
+
+	.cards-summary__title {
+		margin-bottom: 2.4rem;
 	}
 
 	.cards,
